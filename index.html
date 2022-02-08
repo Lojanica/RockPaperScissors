@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90cf0e6506.js" crossorigin="anonymous"></script>
+
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+    <section class="game">
+        <div class="title">Rock Paper Scissors</div>
+        <div class="score">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+            </div>
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+            </div>
+        </div>
+        <div class="choose">Choose your sign</div>
+
+        
+
+        <div class="signs">
+            <button class="rock">Rock<i class="far fa-hand-rock fa-7x"></i></button>
+            <button class="paper">Paper<i class="far fa-hand-paper fa-7x"></i></button>
+            <button class="scissors">Scissors<i class="far fa-hand-scissors fa-7x"></i></button>
+        </div>
+
+        <div class="roundsLeft">Rounds left: 5</div>
+
+        <div class="result"></div>
+        <button class="restart"><i class="fas fa-redo-alt"></i></button>
+
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
